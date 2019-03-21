@@ -273,10 +273,14 @@
      <ons-icon icon="md-share"></ons-icon>
    </ons-fab>
    <ons-speed-dial-item>
-     <ons-icon icon="md-twitter" href="imgList/imageList.html"></ons-icon>
+	 <a href="evaluate.html">
+		 <ons-icon icon="md-twitter"></ons-icon>
+	  </a>
    </ons-speed-dial-item>
    <ons-speed-dial-item>
-     <ons-icon icon="md-facebook" href="evaluate.html"></ons-icon>
+	 <a href="imageList.html">
+		 <ons-icon icon="md-facebook"></ons-icon>
+	 </a>
    </ons-speed-dial-item>
    <ons-speed-dial-item>
      <ons-icon icon="md-google-plus"></ons-icon>
