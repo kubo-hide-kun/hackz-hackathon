@@ -1,0 +1,71 @@
+.signup{
+    display:none;
+}
+.signin{
+    display:none;
+}
+#signout{
+    display:none;
+}
+#getTimeline{
+    border-radius: 5px;
+}
+
+table {
+    width : 70%;
+    margin: 15%;
+    position: relative;
+    border-collapse: collapse;
+}
+
+th,td {
+    text-align: center;
+    color: #333;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.imgState {
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 85%;
+}
+
+.OK {
+    background-color: #5cb85c;
+}
+
+.NO {
+    background-color: #f0ad4e;
+}
+
+.WJ {
+    background: #AAA;
+}
+
+tr:nth-child(even){
+    background: #e9e9e9;
+}
+
+.OKbutton {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #5cb85c;
+  font-size: 85%;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 12px;
+  border-radius: 4px;
+  border-bottom: 4px solid #6b8e23;
+}
+
+.OKbutton:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
