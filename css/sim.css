@@ -67,3 +67,9 @@ panel {
   background:#ff69b4;
   margin:5px;
 }
+
+
+.speed{
+  position: fixed;
+
+}

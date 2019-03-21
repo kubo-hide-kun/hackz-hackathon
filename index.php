@@ -3,6 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>ログイン・登録画面</title>
+	<!-- css -->
+<link rel="stylesheet" href="flex.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
 	<link rel="stylesheet" href="css/style.css">
 	    <link rel="stylesheet" href="css/sim.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,6 +15,11 @@
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"  crossorigin="anonymous">
     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/styles/metro/notify-metro.min.css" type="text/css">
     	<link rel="stylesheet" href="css/style.css" type="text/css">
+    	
+    	  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+ 			 <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+			<script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
@@ -31,7 +40,7 @@
 <!--ヘッダーメニュー -->
 	<nav class="navbar navbar-expand-md bg-primary navbar-dark">
 		<a class="navbar-brand" href="#">
-		<i class="fa d-inline fa-lg fa-cloud"></i><b class="b">入退室管理アプリ</b>
+		<i class="fa d-inline fa-lg fa-cloud"></i><b class="b">Artist Module</b>
 		</a>
 		<br>
 		<!--ジャンピングカット-->
@@ -78,12 +87,210 @@
 
 	<div class="py-1" id="main">
 		<div class="col-md-3" id="rooms"> </div>
+		
+		
+		
+		
+		
   	<!--ここからページ-->
-  	
+<div class="flex" id="flex">
+	<div class="flex-item" id="flex-item">
+		<div class="flex-img">
+		<img src="https://iwiz-chie.c.yimg.jp/im_siggk4ltrdWFGMuNCIvFjoUIlw---x320-y320-exp5m-n1/d/iwiz-chie/que-11153520256">
+		<div class="flex-600">
+		<li class= "flex-list">ユーザー名</li>
+		<li class= "flex-list">出身</li>
+		<li class= "flex-list">趣味</li>
+	</div>
+	</div>
+	</div>
+	<div class="flex-item">
+		<div class="flex-img">
+		<img src="https://s.pximg.net/sensei/images/landing/girl.png?20160815">
+		 <div class="flex-600">
+			<li class="flex-list">ユーザー名</li>
+			<li class="flex-list">出身</li>
+			<li class= "flex-list">趣味</li>
+		</div>
+		</div>
+	</div>
+	<div class="flex-item">
+		<div class="flex-img">
+		<img src="https://s.pximg.net/special/devpixiv/wp-content/uploads/2015/12/syouin.jpg">
+		<div class="flex-600">
+			<li class="flex-list">ユーザー名</li>
+			<li class="flex-list">出身</li>
+			<li class="flex-list">趣味</li>
+	</div>
+</div>
+	</div>
+	<div class="flex-item">
+		<div class="flex-img">
+		<img src="https://pbs.twimg.com/media/BvrMmisCEAAzc8_.png">
+		<div class="flex-600">
+
+		<li class="flex-list">ユーザー名</li>
+		<li class="flex-list">出身</li>
+		<li>趣味</li>
+	</div>
+</div>
+	</div>
+	<div class="flex-item">
+		<div class="flex-img">
+		<img src="https://pbs.twimg.com/media/DcGve5fUQAI8KA9.jpg">
+		<div class="flex-600">
+		<li class="flex-list">ユーザー名</li>
+		<li class="flex-list">出身</li>
+		<li class="flex-list">趣味</li>
+	</div>
+</div>
+</div>
+</div>
+
+<!-- first flexbox end -->
+
+<!-- second flexbox start -->
+
+<div class="flex" id="flex">
+	<div class="flex-item" id="flex-item">
+		<div class="flex-img">
+		<img src="https://iwiz-chie.c.yimg.jp/im_siggk4ltrdWFGMuNCIvFjoUIlw---x320-y320-exp5m-n1/d/iwiz-chie/que-11153520256">
+		<div class="flex-600">
+		<li class= "flex-list">ユーザー名</li>
+		<li class= "flex-list">出身</li>
+		<li class= "flex-list">趣味</li>
+	</div>
+	</div>
+	</div>
+	<div class="flex-item">
+		<div class="flex-img">
+		<img src="https://s.pximg.net/sensei/images/landing/girl.png?20160815">
+		 <div class="flex-600">
+			<li class="flex-list">ユーザー名</li>
+			<li class="flex-list">出身</li>
+			<li class= "flex-list">趣味</li>
+		</div>
+		</div>
+	</div>
+	<div class="flex-item">
+		<div class="flex-img">
+		<img src="https://s.pximg.net/special/devpixiv/wp-content/uploads/2015/12/syouin.jpg">
+		<div class="flex-600">
+			<li class="flex-list">ユーザー名</li>
+			<li class="flex-list">出身</li>
+			<li class="flex-list">趣味</li>
+	</div>
+</div>
+	</div>
+	<div class="flex-item">
+		<div class="flex-img">
+		<img src="https://pbs.twimg.com/media/BvrMmisCEAAzc8_.png">
+		<div class="flex-600">
+
+		<li class="flex-list">ユーザー名</li>
+		<li class="flex-list">出身</li>
+		<li>趣味</li>
+	</div>
+</div>
+	</div>
+	<div class="flex-item">
+		<div class="flex-img">
+		<img src="https://pbs.twimg.com/media/DcGve5fUQAI8KA9.jpg">
+		<div class="flex-600">
+		<li class="flex-list">ユーザー名</li>
+		<li class="flex-list">出身</li>
+		<li class="flex-list">趣味</li>
+	</div>
+</div>
+</div>
+</div>
+<!-- second flexbox final -->
+
+<!-- Third flexbox -->
+<div class="flex" id="flex">
+	<div class="flex-item" id="flex-item">
+		<div class="flex-img">
+		<img src="https://iwiz-chie.c.yimg.jp/im_siggk4ltrdWFGMuNCIvFjoUIlw---x320-y320-exp5m-n1/d/iwiz-chie/que-11153520256">
+		<div class="flex-600">
+		<li class= "flex-list">ユーザー名</li>
+		<li class= "flex-list">出身</li>
+		<li class= "flex-list">趣味</li>
+	</div>
+	</div>
+	</div>
+	<div class="flex-item">
+		<div class="flex-img">
+		<img src="https://s.pximg.net/sensei/images/landing/girl.png?20160815">
+		 <div class="flex-600">
+			<li class="flex-list">ユーザー名</li>
+			<li class="flex-list">出身</li>
+			<li class= "flex-list">趣味</li>
+		</div>
+		</div>
+	</div>
+	<div class="flex-item">
+		<div class="flex-img">
+		<img src="https://s.pximg.net/special/devpixiv/wp-content/uploads/2015/12/syouin.jpg">
+		<div class="flex-600">
+			<li class="flex-list">ユーザー名</li>
+			<li class="flex-list">出身</li>
+			<li class="flex-list">趣味</li>
+	</div>
+</div>
+	</div>
+	<div class="flex-item">
+		<div class="flex-img">
+		<img src="https://pbs.twimg.com/media/BvrMmisCEAAzc8_.png">
+		<div class="flex-600">
+
+		<li class="flex-list">ユーザー名</li>
+		<li class="flex-list">出身</li>
+		<li>趣味</li>
+	</div>
+</div>
+	</div>
+	<div class="flex-item">
+		<div class="flex-img">
+		<img src="https://pbs.twimg.com/media/DcGve5fUQAI8KA9.jpg">
+		<div class="flex-600">
+		<li class="flex-list">ユーザー名</li>
+		<li class="flex-list">出身</li>
+		<li class="flex-list">趣味</li>
+	</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- speed daial -->
+
+ <ons-speed-dial position="bottom right" direction="up" class="speed">
+   <ons-fab>
+     <ons-icon icon="md-share"></ons-icon>
+   </ons-fab>
+   <ons-speed-dial-item>
+     <ons-icon icon="md-twitter"></ons-icon>
+   </ons-speed-dial-item>
+   <ons-speed-dial-item>
+     <ons-icon icon="md-facebook"></ons-icon>
+   </ons-speed-dial-item>
+   <ons-speed-dial-item>
+     <ons-icon icon="md-google-plus"></ons-icon>
+   </ons-speed-dial-item>
+ </ons-speed-dial>
+
+
     </div>
-    
+ 
 <div class="col-md-9" id=""></div>
 	</div>
+
+
+
 
 
 
