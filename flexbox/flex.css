@@ -1,0 +1,107 @@
+body{
+	background-color: white;
+}
+
+
+/* 幅601pxから幅1400pxまで */
+@media screen and (min-width:601px) and ( max-width:3000px) {
+	.flex{
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		box-sizing: border-box;
+		align-items: center;
+		margin-top:40px;
+
+
+		animation-name:fade-in5;
+		animation-duration:1s; /*アニメーション時間  */
+		animation-timing-function: ease-out; /*アニメーションさせるイージング*/
+		animation-delay:0; /*アニメーション開始させる時間 */
+		animation-iteration-count:1; /*繰り返し回数*/
+		animation-direction:normal; /*往復処理をするかどうか*/
+		animation-fill-mode: forwards; /*アニメーション後のスタイルをどうする*/
+	}
+
+    @keyframes fade-in5{
+    	0%{opacity: 0; transform: translate3d(0,30px,0);}
+       100%{opacity: 1; transform: translate3d(0,0,0);}
+	}
+
+	/* 画像 */
+	img{
+	display:block;
+	height:200px;
+	width:200px;
+	margin:auto;
+}
+
+.flex-item{
+	box-shadow: 0px 0px 6px 3px #5547e9;
+	border-radius:3%;
+}
+}
+
+/* 幅601pxから幅1400pxまで*/
+@media screen and (max-width: 600px) {
+	.flex{
+		display:flex;
+		flex-direction:column;
+		animation-name:fade-in5;
+		animation-duration:1s; /*アニメーション時間  */
+		animation-timing-function: ease-out; /*アニメーションさせるイージング*/
+		animation-delay:0; /*アニメーション開始させる時間 */
+		animation-iteration-count:1; /*繰り返し回数*/
+		animation-direction:normal; /*往復処理をするかどうか*/
+		animation-fill-mode: forwards; /*アニメーション後のスタイルをどうする*/
+	}
+
+	@keyframes fade-in5{
+    	0%{opacity: 0; transform: translate3d(0,30px,0);}
+       100%{opacity: 1; transform: translate3d(0,0,0);}
+	}
+
+	.popup{
+
+	}
+
+	.flex-item{
+		box-shadow: 0px 0px 6px 3px #5547e9;
+		margin-top:30px;
+		width:100%;
+		height: auto;
+		border-radius:1%;
+	}
+
+	.flex-img{
+		display:flex;
+	}
+
+	img{
+		width:150px;
+		height:150px;
+	}
+
+	.flex-list{
+		
+	}
+
+
+	.flex-600{
+		padding-left:30px;
+
+	}
+
+}
+
+/* 画像を押した時に出てくる画像のレスポンシブ化 */
+.rightbox-img{
+	display:block;
+	height:auto;
+	max-width: auto;
+}
+
+
+li{
+	list-style:none;
+}
