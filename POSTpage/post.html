@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--リンク・フレームワーク -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/styles/metro/notify-metro.min.css"
+            type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <header>
+            <!--ヘッダーメニュー -->
+            <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <i class="fa d-inline fa-lg fa-cloud"></i><b class="b">Artist Module</b>
+                </a>
+                <br>
+            </nav>
+        </header>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>画像を投稿</h1>
+        <div id="dropzone" effectAllowed="move">ここに画像をドロップ</div>
+        <script src="post.js" type="text/javascript"></script>
+        <p class="box">
+            <img id="output">
+        </p>
+        <p class="button">
+            <button class="post">投稿</button>
+            <button class="back">戻る</button>
+        </p>
+        
+    </body>
+</html>
