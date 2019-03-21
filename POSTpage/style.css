@@ -1,0 +1,94 @@
+body {
+    background: #FFF;
+}
+
+h1 {
+    text-align: center;
+    font-size: 192%;
+    color: rgb(113, 158, 255);
+}
+
+#dropzone {
+    position: relative;
+    margin: auto;
+	background-color: #cfc;
+	border: solid 2px #9c9;
+    color: rgb(113, 158, 255);
+    width: 192px;
+    height: 32px;
+    text-shadow: 1px 1px 0 #fff;
+    font-size: 18px;
+    text-align: center;
+}
+#dropzone.dropover {
+	background-color: #cff;
+	color: #9cc;
+}
+
+.box {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 1em 1em;
+    height: 384px;
+    width: 384px;
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;/*点線*/
+}
+
+.box img {
+    position: absolute;
+    margin-left: -4.5%;
+    transform: translateY(-4.5%);
+    height: 384px;
+    width: 384px;
+}
+
+.button {
+    width: 406px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.post {
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 150%;
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.73);
+    padding: 0.3em 0.5em;
+    background: greenyellow;
+    border-top: solid 3px greenyellow;
+    border-bottom: solid 3px greenyellow;
+    transition: .4s;
+}
+  
+.post:hover {
+    text-shadow: -6px 0px 15px rgba(255, 255, 240, 0.83),
+                 6px 0px 15px rgba(255, 255, 240, 0.83);
+}
+
+.back {
+    position: absolute;
+    left: 0px;
+    top: -10px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 150%;
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.73);
+    padding: 0.3em 0.5em;
+    background: #00bcd4;
+    border-top: solid 3px #00a3d4;
+    border-bottom: solid 3px #00a3d4;
+    transition: .4s;
+}
+  
+.bacl:hover {
+    text-shadow: -6px 0px 15px rgba(255, 255, 240, 0.83),
+                 6px 0px 15px rgba(255, 255, 240, 0.83);
+}
