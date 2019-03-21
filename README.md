@@ -6,7 +6,7 @@
   - CSS
   - Bootstrap
   - Javascript
-    - JqueryJquery
+    - jQuery
 - バックエンド
   - XAMPP
   - firebase
