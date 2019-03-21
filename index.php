@@ -278,7 +278,7 @@
 	  </a>
    </ons-speed-dial-item>
    <ons-speed-dial-item>
-	 <a href="imageList.html">
+	 <a href="imgList/imageList.html">
 		 <ons-icon icon="md-facebook"></ons-icon>
 	 </a>
    </ons-speed-dial-item>
