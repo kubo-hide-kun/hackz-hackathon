@@ -1,0 +1,12 @@
+.signup{
+    display:none;
+}
+.signin{
+    display:none;
+}
+#signout{
+    display:none;
+}
+#getTimeline{
+    border-radius: 5px;
+}
