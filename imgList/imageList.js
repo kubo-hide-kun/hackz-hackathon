@@ -24,7 +24,8 @@ const data = {
 
 const  CreateList = function(time,title,state) {
     console.log("AC");
-    if(state=="OK")return '<tr><td>'+time+'</td><td>'+title+'</td><td><p class="imgState '+ state +'">評価中</td><td><button class="OKbutton">投稿</button></td></tr>';
+    console.log(title);
+    if(state=="OK")return '<tr><td>'+time+'</td><td>'+title+'</td><td><p class="imgState '+ state +'">評価中</td><td><button class="OKbutton" onclick=globalPOST('+'"'+title+'"'+')>投稿</button></td></tr>';
     return '<tr><td>'+time+'</td><td>'+title+'</td><td><p class="imgState '+ state +'">評価中</td><td></td></tr>';
 };
 
@@ -41,3 +42,7 @@ $(document).ready(function () {
         $("#imgTable").append(item);
     }
 });
+
+const globalPOST = function(title){
+    console.log("my name is "+title); 
+};
