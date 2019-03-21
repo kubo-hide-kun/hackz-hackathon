@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>ログイン・登録画面</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="imageList.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--リンク・フレームワーク -->
@@ -16,6 +17,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="imageList.js" type="text/javascript"></script>
 
 </head>
 <header>
@@ -29,7 +31,7 @@
 </header>
 
 <body>
-    <table>
+    <table id="imgTable">
         <tr>
             <th>
                 <font>提出日時</font>
@@ -44,24 +46,6 @@
                 <font>提出ボタン</font>
             </th>
         </tr>
-        <tr>
-            <td>2019-3-14 13:53:41</td>
-            <td>玉子とベーコンとクリームソースのパスタ</td>
-            <td><p class="imgState OK">合格</td>
-            <td><button class="OKbutton">投稿</button></td>
-        </tr>
-        <tr>
-            <td>2018-12-15 23:59:01</td>
-            <td>エビとあさりの漁師風パスタ</td>
-            <td><p class="imgState WJ">評価中</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2018-8-9 22:11:14</td>
-            <td>エビとあさりの漁師風パスタ</td>
-            <td><p  class="imgState NO">不合格</td>
-            <td></td>
-            </tr>
     </table>
 </body>
 
